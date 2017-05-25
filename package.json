@@ -1,0 +1,28 @@
+{
+  "name": "scrape",
+  "version": "1.0.0",
+  "description": "scraper application",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinshare/scrape.git"
+  },
+  "author": "Kevin Share",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevinshare/scrape/issues"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "cheerio": "^0.20.0",
+    "express": "^4.13.4",
+    "mongoose": "^4.4.6",
+    "morgan": "^1.7.0",
+    "request": "^2.69.0"
+  },
+  "homepage": "https://github.com/kevinshare/scrape#readme"
+}
